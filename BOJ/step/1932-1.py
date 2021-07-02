@@ -10,8 +10,6 @@ for i in range(n):
 
 d = [ [0] * n for _ in range(n) ]
 
-print(tri)
-
 d[0][0] = tri[0][0]
 d[1][0] = tri[1][0] + tri[0][0]
 d[1][1] = tri[1][1] + tri[0][0]

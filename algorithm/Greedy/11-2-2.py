@@ -1,6 +1,7 @@
 # 11-2 : 곱하기 혹은 더하기
 
-a = list(input())
+import sys
+a = list(sys.stdin.readline().rstrip())
 
 result = int(a[0])
 

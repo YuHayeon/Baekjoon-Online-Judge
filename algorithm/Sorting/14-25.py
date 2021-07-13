@@ -1,4 +1,5 @@
 # 14-25 실패율
+# 2019 KAKAO BLIND RECRUITMENT 실패율
 
 def solution(n, stages):
     count = [0] * 501
@@ -20,9 +21,3 @@ def solution(n, stages):
     for items in fail:
         answer.append(items[0])
     return answer
-
-N = 4
-stages = [4, 4, 4, 4, 4]
-
-
-print(solution(N,stages))

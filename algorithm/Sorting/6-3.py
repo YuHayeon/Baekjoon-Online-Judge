@@ -1,5 +1,6 @@
-#Sorting
-#6-3 성적이 낮은 순서로 학생 출력하기
+# Sorting
+# 6-3 성적이 낮은 순서로 학생 출력하기
+
 end = int(input())
 grade = {}
 

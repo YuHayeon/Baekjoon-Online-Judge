@@ -1,3 +1,5 @@
+# 2775 : 부녀회장이 될테야
+
 end = int(input())
 
 for i in range(end):

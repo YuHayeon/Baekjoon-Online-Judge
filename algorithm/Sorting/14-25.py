@@ -16,7 +16,7 @@ def solution(n, stages):
         else:
             fail[i] = count[i] / total
         total -= count[i]
-    print(fail)
+
     fail = sorted(fail.items(), key = lambda x : x[1], reverse = True)
     for items in fail:
         answer.append(items[0])

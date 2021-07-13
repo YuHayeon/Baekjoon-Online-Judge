@@ -1,5 +1,5 @@
-#Sorting
-#6-2 위에서 아래로
+# Sorting
+# 6-2 위에서 아래로
 
 end = int(input())
 num = []

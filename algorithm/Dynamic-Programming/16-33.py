@@ -14,4 +14,4 @@ for i in range(n):
         else:
             d[i] = max(d[i], plan[i][1])
 
-print(d)
+print(max(d))

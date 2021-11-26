@@ -14,7 +14,6 @@ for _ in range(m):
     a, b = map(int, sys.stdin.readline().split())
     matrix[a][b] = matrix[b][a] = 1
 
-
 def bfs(v):
     queue = deque()
     queue.append(v)

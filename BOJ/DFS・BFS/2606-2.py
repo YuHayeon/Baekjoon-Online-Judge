@@ -28,7 +28,6 @@ def bfs(v):
                 queue.append(i)
                 visited[i] = 1
 
-
 bfs(1)
 ans = sum(visited)-1
 print(ans)

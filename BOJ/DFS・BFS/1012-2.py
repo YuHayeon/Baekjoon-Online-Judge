@@ -1,7 +1,7 @@
 # 1012-2 : 유기농 배추 - DFS
 
 import sys
-sys.getrecursionlimit(10000)
+sys.setrecursionlimit(10000)
 
 t = int(sys.stdin.readline())
 

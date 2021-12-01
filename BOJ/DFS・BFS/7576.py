@@ -17,13 +17,11 @@ for i in range(n):
         if graph[i][j] == 1:
             queue.append([i, j])
 
-print(queue)
-
 
 def bfs():
     while queue:
         x, y = queue.popleft()
-        print(graph)
+
         for i in range(4):
             nx = x+dx[i]
             ny = y+dy[i]

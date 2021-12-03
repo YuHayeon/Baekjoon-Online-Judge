@@ -47,5 +47,3 @@ elif ans2 == 0:
     print(ans1)
 else:
     print(min(ans1, ans2))
-
-print(visited)

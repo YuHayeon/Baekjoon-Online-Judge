@@ -21,7 +21,9 @@ def paper(n, r, c):
     elif cnt == (n**2):
         blue += 1
     else:
-
+        for x in range(2):
+            for y in range(2):
+                paper(n//2, r+(n//2*x), c+(n//2*y))
         paper(n//2, r, c)
         paper(n//2, r+n//2, c)
         paper(n//2, r, c+n//2)

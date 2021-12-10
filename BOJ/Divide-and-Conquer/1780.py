@@ -8,6 +8,7 @@ one = 0
 zero = 0
 minus = 0
 
+
 def paper(n, r, c):
     global one
     global zero
@@ -16,9 +17,10 @@ def paper(n, r, c):
     for i in range(r, r+n):
         for j in range(c, c+n):
             if d[i][j] != target:
+                # 함수 호출을 다음과 같은 반복문으로도 가능
                 # for x in range(3):
                 #     for y in range(3):
-                #         paper(n//3, r+(n//3 * x), c+(n//3* y))
+                #         paper(n//3, r+(n//3 * x), c+(n//3 * y))
                 paper(n//3, r, c)
                 paper(n//3, r, c+n//3)
                 paper(n//3, r, c+2*(n//3))
@@ -37,7 +39,8 @@ def paper(n, r, c):
     elif target == 1:
         one += 1
 
-paper(n, 0, 0)        
+
+paper(n, 0, 0)
 print(minus)
 print(zero)
 print(one)

@@ -1,4 +1,4 @@
-# 1992 : 쿼드 트리
+# 1992 : 쿼드트리
 
 import sys
 
@@ -7,7 +7,6 @@ d = [list(map(int,sys.stdin.readline().rstrip())) for _ in range(n)]
 
 def quad(n, r, c):
     target = d[r][c]
-    cnt = 0
     for i in range(r, r+n):
         for j in range(c, c+n):
             if target != d[i][j]:
@@ -23,6 +22,5 @@ def quad(n, r, c):
         print("0", end='')
     elif target==1:
         print("1", end='')     
-
 
 quad(n, 0, 0)

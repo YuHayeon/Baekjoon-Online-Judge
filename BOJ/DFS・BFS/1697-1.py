@@ -22,4 +22,4 @@ def bfs(x):
                 q.append(i)
                 visited[i] = visited[x] + 1
 bfs(n)
-print(visited[k])
+print(visited[k]-1)

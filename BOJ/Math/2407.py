@@ -10,5 +10,5 @@ for i in range(1, m+1):
     d[i][0] = d[i-1][0] * (n-i+1)
     d[i][1] = d[i-1][1] * i
 
-result = (d[i][0]//d[i][1])
+result = (d[m][0]//d[m][1])
 print(result)

@@ -10,12 +10,12 @@ result = 0
 
 for _ in range(N):
     card.append(int(input()))
-    
+
 heapq.heapify(card)
 
-while len(card)>1:
+while len(card) > 1:
     a = heapq.heappop(card)
-    b = heapq.heappop(card) 
+    b = heapq.heappop(card)
     result += (a+b)
     heapq.heappush(card, a+b)
 

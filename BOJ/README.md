@@ -1,2 +1,3 @@
 # baekjoon-algorithm
-백준 알고리즘 문제
+
+[![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=hayu)](https://solved.ac/hayu)

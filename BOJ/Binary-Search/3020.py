@@ -1,6 +1,5 @@
 # 3020 : 개똥벌레
 
-from cmath import inf
 import sys
 input = sys.stdin.readline
 
